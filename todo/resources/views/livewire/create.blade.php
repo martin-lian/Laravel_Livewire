@@ -8,7 +8,7 @@
     </div>
     <div class="form-group">
         <label for="exampleFormControlInput2"></label>
-        <textarea wire:model='body' type="email" class="form-control" id="exampleFormControlInput2"  placeholder="Enter Body"></textarea>
+        <textarea wire:model='body' type="email" class="form-control" id="exampleFormControlInput2"  placeholder="Enter Task"></textarea>
         @error('body')
         <span class="text-danger">{{$message}}</span>
         @enderror
